@@ -1,3 +1,30 @@
+Commands I am running on CLI:
+
+```
+npx create-react-app react-flask-app
+```
+
+mkdir api
+cd api/
+
+source /opt/miniconda3/bin/activate
+python -m venv venv
+source ./venv/bin/activate
+
+pip install flask python-dotenv
+
+Create Flask app in here as you like and to run the flask app:
+```
+flask run
+```
+
+Flask runs on port: 5000 and React on port: 3000
+
+So add proxy in package.json, So whenever React doesn't know what to serve it will serve proxy.
+Also Added some scripts command in it.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
