@@ -24,6 +24,19 @@ So add proxy in package.json, So whenever React doesn't know what to serve it wi
 Also Added some scripts command in it.
 
 
+To run app now:
+For Frontend:
+```
+npm start
+```
+For Backend:
+```
+npm run start-api
+```
+
+
+
+
 
 # Getting Started with Create React App
 
