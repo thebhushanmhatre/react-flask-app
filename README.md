@@ -52,6 +52,17 @@ For Backend:
 npm run start-api
 ```
 
+Save the libraries.packages list used:
+```
+pip freeze > requirements.txt
+```
+
+Command used to install these libraries packages is:
+```
+pip install -r requirements.txt --ignore-installed
+```
+
+
 Preparation for Deployment:
 Add following changes in api.py:
 ```python
